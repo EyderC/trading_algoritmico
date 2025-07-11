@@ -74,7 +74,3 @@ def binance_adquirir_data_15m(fecha_inicio='', fecha_fin='', symbol = 'BTCUSDT')
     else:
         return mensaje_observacion
     
-
-
-data = binance_adquirir_data_15m('2025-07-10','2025-07-12')
-print(data)

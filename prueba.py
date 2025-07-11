@@ -83,8 +83,7 @@ df_binance.to_csv("btc_binance_15m_2025.csv")
 '''
     TAREAS 
     
-    1 - Escribe un modulo para crear funciones de adquisición de datos en cripto para varios exchanges , que obtiene los datos
-    en cada marco temporal, Por ejemplo : def binance_adquirir_data_15m(activo = 'BTCUSDT') que por defecto adquieran los datos de bitcoin
+    1 -Escribir funcione de adquisición de datos def coinbase_adquirir_data_15m(activo = 'BTCUSDT')
     2- crear un subdirectorio en /tradin_algoritmico para almacenar los datos descargados en formato csv. 
     3- crear un script para descargar los datos de 15min todos los dias y se almacenen en el subdirectorio en formato csv. 
  
